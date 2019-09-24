@@ -1,0 +1,20 @@
+{
+  "name": "foto",
+  "version": "0.0.1",
+  "private": true,
+  "description": "fotoserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"wsrun build"
+  },
+  "author": "pesonen.heikki@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.6.3",
+    "wsrun": "^5.0.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

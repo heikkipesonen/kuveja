@@ -1,0 +1,25 @@
+{
+  "name": "@foto/server",
+  "private": true,
+  "files": [
+    "lib"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.build.json",
+    "start": "tsc -p ./tsconfig.build.json --watch",
+    "dev": "nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pesonen.heikki@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "typescript": "^3.6.3"
+  }
+}

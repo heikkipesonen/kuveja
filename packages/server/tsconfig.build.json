@@ -1,0 +1,32 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "dom"
+    ],
+    "sourceMap": false,
+    "declaration": false,
+    "allowJs": false,
+    "moduleResolution": "classic",
+    "rootDirs": [
+      "src/dist"
+    ],
+    "baseUrl": "src/dist"
+  },
+  "include": [
+    "src/"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "*.test.*"
+  ]
+}
