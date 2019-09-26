@@ -1,0 +1,1 @@
+export const apiUrl = 'https://api.backblazeb2.com/b2api/v2'
